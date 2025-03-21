@@ -1,0 +1,15 @@
+<xsd:element name="workID" minOccurs="0" maxOccurs="unbounded" id="workID">
+	<xsd:annotation> [...] </xsd:annotation>
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="xsd:string">
+					<xsd:attribute ref="lido:type" id="workID_type">
+						<xsd:annotation>[...]</xsd:annotation>
+					</xsd:attribute>
+					<xsd:attribute ref="lido:sortorder"/>
+					<xsd:attribute ref="lido:encodinganalog"/>
+					<xsd:attribute ref="lido: label"/>
+				</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+</xsd:element>

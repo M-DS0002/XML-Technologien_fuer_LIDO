@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:lido="http://www.lido-schema.org" exclude-result-prefixes="lido">
+	<xsl:output method="xml" indent="yes"/>
+	<xsl:template match="@*|node () ">
+		<xsl:copy>
+			<xsl:apply-templates select="@*|node ()"/>
+		</xsl:copy>
+	</xsl:template>
+	<xsl:template match="lido:classification/lido:term">
+		<lido:term xml:lang="deu">
+			<xsl:value-of select="//lido:objectWorkType/lido: term"/>
+		</lido:term>
+	</xsl:template>
+</xsl:stylesheet>

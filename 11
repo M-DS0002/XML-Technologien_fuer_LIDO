@@ -1,0 +1,7 @@
+<lido:objectWorkTypeWrap>
+	<lido:objectWorkType xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http:vocab.getty.edu/aat/300038888" xlink:title="AAT-URI" xlink: show="new">
+		<lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">http://vocab.getty.edu/aat/300038888</lido:conceptID>
+		<lido:term xml:lang="de">Kabinettschrank</lido:term>
+		<lido:term xml:lang="en">cabinets (case furniture)</lido:term>
+	</lido:objectWorkType>
+</lido:objectWorkTypeWrap>

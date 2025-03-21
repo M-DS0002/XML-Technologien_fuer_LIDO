@@ -1,0 +1,8 @@
+<xsd:attribute name="addedSearchTerm" default="no" id="addedSearchTerm">
+  <xsd:simpleType>
+     <xsd:annotation> [...]</xsd:annotation>
+     <xsd:restriction base="xs:string">
+       <xsd:enumeration value="yes"/>
+       <xsd:enumeration value="no"/>
+     </xsd:restriction>
+  </xsd:simpleType>

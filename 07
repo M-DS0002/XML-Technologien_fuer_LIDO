@@ -6,3 +6,4 @@
        <xsd:enumeration value="no"/>
      </xsd:restriction>
   </xsd:simpleType>
+</xsd:attribute>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:lido="http:://www.lido-schema.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+	<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<xsd:element name="lido:objectWorkType">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="lido:conceptID"/>
+					<xsd:element name="lido:term"/>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>

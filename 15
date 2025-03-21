@@ -1,0 +1,10 @@
+conceptID
+{
+padding: 20px;
+margin:5px;
+font-size:20px;
+background-color:pink;
+display:block;
+width:450px;
+border:10px solid blue;
+}

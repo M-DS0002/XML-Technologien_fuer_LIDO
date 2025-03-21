@@ -1,0 +1,12 @@
+<!DOCTYPE lido [
+<!-- weitere LIDO-Verschachtelung fehlt --<
+<! ELEMENT objectWorkTypeWrap (objectWorkType+)
+<!ELEMENT objectWorkType (conceptID*,term+) >
+<!ELEMENT conceptID (#PCDATA)>
+<!ATTLIST conceptID
+          type CDATA #FIXED "http://terminology.lido-schema.org/lido00099">
+<!ELEMENT term (#PCDATA)>
+<!ATTLIST term
+          xml:lang CDATA #IMPLIED>
+
+

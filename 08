@@ -1,0 +1,10 @@
+<xsd:element name="relatedWorkSet" minOccurs="0" maxOccurs="unbounded" id="relatedWorkSet">
+  <xsd:annotation>>[...] </xs:annotation>
+    <xsd:complexType>
+      <xsd:complexContent>
+        <xsd:extension base="lido: relatedWorkSetComplexType">
+        <xsd:attribute ref="lido: sortorder"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+</xsd:element>
